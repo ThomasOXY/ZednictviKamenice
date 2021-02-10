@@ -1,0 +1,64 @@
+@import 'navbar';
+@import 'about';
+@import 'services';
+@import 'contact';
+@import 'projects';
+@import 'jbGallery';
+@import 'main';
+html{
+  scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+ 
+    .ml16 {
+           color: white; 
+        padding: 40px 0;
+        font-weight: 800;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        overflow: hidden;
+        font-family: 'Raleway', sans-serif;
+      }
+      
+      .ml16 .letter {
+        display: inline-block;
+        line-height: 1em;
+      }
+
+      h2{
+          margin-top: -40px;
+          color: white;
+          font-size: 2em;
+          font-family: 'Inter';
+      }
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    width: 100%;
+    min-height: 100vh ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    animation: change 30s infinite;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @keyframes change {
+        0%{background-image: url(../img/20190924235923_OmhH3Q.jpg);}
+        25%{background-image: url(../img/20190925000123_F0XLHx.jpg);}
+        50%{background-image: url(../img/20201124_132839.jpg);}
+        75%{background-image: url(../img/20201218_103607.jpg);}
+        100%{background-image: url(../img/20190924235923_OmhH3Q.jpg);}
+    }
+}

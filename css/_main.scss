@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin-ext');
+.ui-loader {
+  display: none;
+}
+
+
+ 
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+    a {
+      display: block;
+      flex: 0 1 25%;
+      max-width: 200px;
+      height: 200px;
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+}
